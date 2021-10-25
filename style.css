@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+:root {
+  --color-white: #f3f3f3;
+  --color-darkblue: #1b1b32;
+  --color-darkblue-alpha: rgba(27, 27, 50, 0.8);
+  --color-green: #37af65;
+  --gray: #1d1e22;
+  --white: #fff;
+}
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+#title, #description {
+  color: var(--white);
+  font-weight: 900;
+}
+#title {
+  padding-top: 1rem;
+  font-size: 2.5rem;
+}
+#description {
+  font-size: 1.5rem;
+  width: 50%;
+  margin-left: 20vw;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--white);
+}
+.text-center {
+  text-align: center;
+}
+.container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 120rem;
+  background-color: var(--gray);
+}
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+body {
+  background: url(https://www.push10.com/wp-content/uploads/geneva-gloval-website-hero-design.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#survey-form {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+h1, p {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+input[type=text], input[type=email], input[type=number] {
+  width: 80%;
+}
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  background: var(--color-green);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  border: none;
+  transition: background-color .4s linear;
+}
+.submit-button:hover {
+  background-color: #37af65c9;
+}
